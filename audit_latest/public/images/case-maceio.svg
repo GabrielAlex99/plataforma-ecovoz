@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Ilustração documental de bairros urbanos esvaziados e deslocamento territorial">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d9e3e5"/><stop offset="1" stop-color="#97a8aa"/></linearGradient></defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <path d="M0 275 C95 245, 195 285, 310 250 C430 218, 520 250, 640 220 L640 360 L0 360 Z" fill="#566b68" opacity=".42"/>
+  <g opacity=".9"><rect x="70" y="140" width="70" height="110" fill="#39464b"/><rect x="160" y="108" width="92" height="142" fill="#2d3d44"/><rect x="275" y="135" width="78" height="115" fill="#43555a"/><rect x="395" y="95" width="105" height="155" fill="#2f4248"/><rect x="525" y="125" width="58" height="125" fill="#3f5358"/></g>
+  <g fill="#e8f1ea" opacity=".25"><rect x="95" y="158" width="8" height="14"/><rect x="184" y="130" width="10" height="18"/><rect x="426" y="122" width="12" height="18"/><rect x="548" y="150" width="9" height="18"/></g>
+  <path d="M110 285 L530 245" stroke="#C44A1C" stroke-width="5" stroke-dasharray="14 10" opacity=".65"/>
+  <circle cx="140" cy="288" r="10" fill="#C44A1C" opacity=".75"/><circle cx="420" cy="256" r="10" fill="#C44A1C" opacity=".75"/>
+  <path d="M225 285 C255 305, 292 303, 320 282" stroke="#123524" stroke-width="10" opacity=".32" fill="none"/>
+  <rect width="640" height="360" fill="#123524" opacity=".16"/>
+</svg>

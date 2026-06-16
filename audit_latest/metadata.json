@@ -1,0 +1,6 @@
+{
+  "name": "EcoVoz",
+  "description": "Plataforma de escuta, mapeamento e soluções socioambientais para enfrentar o racismo ambiental.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

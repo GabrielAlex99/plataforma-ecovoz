@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Território costeiro com comunidade pesqueira e instalações industriais ao fundo">
+  <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#c8dddb"/><stop offset="1" stop-color="#edf4f2"/></linearGradient><linearGradient id="sea" x1="0" x2="1"><stop stop-color="#6d9c9a"/><stop offset="1" stop-color="#1b4a50"/></linearGradient><filter id="noise"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="2"/><feComponentTransfer><feFuncA type="table" tableValues="0 .05"/></feComponentTransfer></filter></defs>
+  <rect width="640" height="360" fill="url(#sky)"/><rect width="640" height="360" filter="url(#noise)"/>
+  <rect y="178" width="640" height="182" fill="url(#sea)"/>
+  <path d="M0 185 C85 160,160 205,250 178 C340 150,440 198,520 168 C575 148,610 152,640 160" stroke="#dfe8e4" stroke-width="5" opacity=".28" fill="none"/>
+  <g opacity=".68"><rect x="420" y="100" width="104" height="82" fill="#5b6760"/><rect x="440" y="66" width="16" height="116" fill="#34413a"/><rect x="492" y="78" width="16" height="104" fill="#34413a"/><path d="M448 68 C410 50,448 28,410 8" stroke="#7f8984" stroke-width="22" fill="none" opacity=".52"/></g>
+  <g transform="translate(80 240)"><path d="M0 24 L108 24 L88 52 L18 52 Z" fill="#7a513b"/><rect x="30" y="2" width="42" height="23" fill="#e3e8df"/><line x1="96" y1="0" x2="130" y2="44" stroke="#51382d" stroke-width="5"/></g>
+  <g transform="translate(242 248)"><path d="M0 18 L86 18 L70 40 L14 40 Z" fill="#5f4638"/><rect x="23" y="0" width="34" height="19" fill="#dbe3de"/></g>
+  <rect y="312" width="640" height="48" fill="#172e2d" opacity=".26"/>
+</svg>

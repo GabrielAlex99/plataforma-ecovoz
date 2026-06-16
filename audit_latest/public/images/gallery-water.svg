@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Ilustração demonstrativa de canal com mancha de óleo próximo a comunidade pesqueira">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b9d4d2"/><stop offset="1" stop-color="#789a95"/></linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1f5b5d"/><stop offset="1" stop-color="#0b2e31"/></linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#sky)"/>
+  <path d="M0 150 C110 120, 220 160, 320 128 C455 85, 545 140, 640 98 L640 0 L0 0 Z" fill="#a9c7b9" opacity=".6"/>
+  <rect y="168" width="640" height="192" fill="url(#water)"/>
+  <path d="M0 200 C110 175, 230 220, 340 188 C460 154, 535 205, 640 168" stroke="#88c7bd" stroke-width="18" opacity=".38" fill="none"/>
+  <ellipse cx="350" cy="242" rx="135" ry="30" fill="#071714" opacity=".72"/>
+  <path d="M285 234 C325 210, 380 224, 425 205" stroke="#f6c56b" stroke-width="9" opacity=".78" fill="none"/>
+  <path d="M82 245 h135 l-25 30 H108z" fill="#5a3f2e"/><rect x="125" y="210" width="20" height="37" fill="#5a3f2e"/><path d="M145 214 l48 26 h-48z" fill="#e8f1ea" opacity=".65"/>
+  <g opacity=".75"><rect x="465" y="105" width="42" height="80" fill="#26352d"/><rect x="522" y="84" width="28" height="101" fill="#2c3b34"/><path d="M486 102 C456 70, 525 42, 495 -10" stroke="#edf2ec" stroke-width="17" opacity=".22" fill="none"/></g>
+  <path d="M0 316 C120 285, 255 322, 393 295 C512 272, 574 298, 640 284 L640 360 L0 360 Z" fill="#071714" opacity=".25"/>
+  <rect width="640" height="360" fill="#123524" opacity=".14"/>
+</svg>

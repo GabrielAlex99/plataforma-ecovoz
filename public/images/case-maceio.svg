@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Bairro urbano com casas desocupadas, rachaduras no solo e área isolada">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dfe5e1"/><stop offset="1" stop-color="#b8c2bd"/></linearGradient><filter id="noise"><feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="2"/><feComponentTransfer><feFuncA type="table" tableValues="0 .06"/></feComponentTransfer></filter></defs>
+  <rect width="640" height="360" fill="url(#bg)"/><rect width="640" height="360" filter="url(#noise)"/>
+  <rect y="250" width="640" height="110" fill="#8b846e" opacity=".32"/>
+  <g opacity=".9"><rect x="60" y="126" width="88" height="108" fill="#9f6a50"/><polygon points="60,126 104,92 148,126" fill="#624434"/><rect x="168" y="140" width="94" height="94" fill="#b88360"/><polygon points="168,140 216,104 262,140" fill="#6a4a38"/><rect x="378" y="118" width="110" height="116" fill="#8e6049"/><polygon points="378,118 434,82 488,118" fill="#5f4332"/><rect x="504" y="144" width="74" height="90" fill="#bd8c66"/><polygon points="504,144 542,116 578,144" fill="#73513d"/></g>
+  <g opacity=".85" stroke="#2c3732" stroke-width="7" fill="none"><path d="M30 292 C95 268,130 316,200 288 C260 264,318 314,390 286 C460 258,530 300,618 270"/><path d="M260 236 L302 286 L338 252 L376 326"/><path d="M90 234 L126 280 L158 250"/></g>
+  <g opacity=".68"><rect x="22" y="240" width="210" height="12" fill="#f6c56b"/><rect x="32" y="238" width="9" height="34" fill="#5f4b30"/><rect x="205" y="238" width="9" height="34" fill="#5f4b30"/></g>
+</svg>

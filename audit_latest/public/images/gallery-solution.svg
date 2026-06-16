@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Ilustração demonstrativa de barreira verde entre indústria e comunidade">
+  <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e8f1ea"/><stop offset="1" stop-color="#b7cbb6"/></linearGradient></defs>
+  <rect width="640" height="360" fill="url(#sky)"/>
+  <rect y="230" width="640" height="130" fill="#456249"/>
+  <g opacity=".7"><rect x="455" y="90" width="45" height="140" fill="#33443a"/><rect x="520" y="65" width="28" height="165" fill="#27372f"/><path d="M535 62 C505 24, 565 18, 545 -8" stroke="#f1f5ef" stroke-width="18" fill="none" opacity=".22"/></g>
+  <g opacity=".95">
+    <rect x="55" y="218" width="92" height="58" fill="#d6bc91"/><polygon points="45,218 102,182 158,218" fill="#805f45"/>
+    <rect x="160" y="230" width="76" height="48" fill="#c3a881"/><polygon points="152,230 198,202 246,230" fill="#704e36"/>
+  </g>
+  <g>
+    <rect x="265" y="190" width="20" height="104" fill="#6f4f30"/><circle cx="276" cy="160" r="65" fill="#6b9d6b"/><circle cx="315" cy="170" r="54" fill="#8bb989"/><circle cx="237" cy="175" r="42" fill="#9fcaa0"/>
+    <rect x="355" y="205" width="18" height="88" fill="#6f4f30"/><circle cx="365" cy="178" r="52" fill="#5d925f"/><circle cx="400" cy="190" r="42" fill="#8ebd8f"/>
+    <rect x="230" y="232" width="240" height="8" rx="4" fill="#f6c56b" opacity=".85"/>
+  </g>
+  <path d="M0 315 C130 275, 250 330, 390 292 C510 258, 585 286, 640 268 L640 360 L0 360 Z" fill="#1d3127" opacity=".28"/>
+  <rect width="640" height="360" fill="#123524" opacity=".08"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Canal urbano com mancha oleosa e moradias próximas">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d6e1dd"/><stop offset="1" stop-color="#eff4f0"/></linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#657d78"/><stop offset="1" stop-color="#183b39"/></linearGradient>
+    <linearGradient id="oil" x1="0" x2="1"><stop stop-color="#d9a441" stop-opacity=".72"/><stop offset=".5" stop-color="#245b57" stop-opacity=".68"/><stop offset="1" stop-color="#141918" stop-opacity=".72"/></linearGradient>
+    <filter id="noise"><feTurbulence type="fractalNoise" baseFrequency=".65" numOctaves="2"/><feComponentTransfer><feFuncA type="table" tableValues="0 .06"/></feComponentTransfer></filter>
+  </defs>
+  <rect width="640" height="360" fill="url(#sky)"/><rect width="640" height="360" filter="url(#noise)" opacity=".55"/>
+  <g opacity=".9"><rect x="28" y="94" width="88" height="82" fill="#9d684d"/><polygon points="28,94 72,62 116,94" fill="#654535"/><rect x="130" y="116" width="74" height="60" fill="#b38261"/><polygon points="130,116 168,88 204,116" fill="#72513e"/><rect x="500" y="82" width="98" height="96" fill="#8e624c"/><polygon points="500,82 550,48 598,82" fill="#5b4032"/></g>
+  <rect y="162" width="640" height="198" fill="url(#water)"/>
+  <path d="M0 188 C88 158,170 205,265 176 C362 144,440 198,548 165 C590 152,616 154,640 158" stroke="#e8f1ea" stroke-width="5" opacity=".25" fill="none"/>
+  <path d="M34 228 C120 202,210 256,305 220 C410 178,500 234,610 194" stroke="url(#oil)" stroke-width="28" fill="none" opacity=".92"/>
+  <path d="M58 272 C150 246,238 288,350 262 C450 238,530 272,620 246" stroke="#d8b45a" stroke-width="6" opacity=".45" fill="none"/>
+  <g transform="translate(72 245)"><path d="M0 20 L92 20 L78 42 L16 42 Z" fill="#754f3b"/><rect x="24" y="3" width="35" height="18" fill="#e1e5da"/><line x1="84" y1="0" x2="108" y2="34" stroke="#53382d" stroke-width="4"/></g>
+  <g transform="translate(485 254)" opacity=".8"><path d="M0 16 L72 16 L58 34 L12 34 Z" fill="#5e4435"/><rect x="18" y="1" width="26" height="16" fill="#d7ded5"/></g>
+  <rect x="0" y="332" width="640" height="28" fill="#2c382f" opacity=".42"/>
+</svg>

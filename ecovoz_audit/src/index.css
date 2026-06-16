@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@350;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+:root {
+  --bg: #F4F7F2;
+  --bg-card: #FFFFFF;
+  --text-main: #16231C;
+  --text-secondary: #4B5F55;
+  --green-dark: #123524;
+  --green-medium: #2F6B4F;
+  --green-light: #A8CBB1;
+  --accent: #F28C28;
+  --border-color: #DDE8D8;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg);
+  color: var(--text-main);
+  overflow-x: hidden;
+}
+
+/* Custom scrollbars for dashboard widgets */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #F4F7F2;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--green-dark);
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--green-medium);
+}
+
+/* Modal and feedback fade animations */
+@keyframes scaleUp {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-scale-up {
+  animation: scaleUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Ensure the executive pitch heading has perfect contrast */
+#pitch-presentation-root h2,
+#pitch-presentation-root h2 span {
+  color: #123524 !important;
+}
+
+/* === EcoVoz visual reset: tema claro institucional === */
+:root, html, body, #root, #root-viewport {
+  background: #F4F7F2 !important;
+  color: #16231C !important;
+}
+
+#home, #dores, #mapa, #dashboard, #banco, #sobre {
+  background-color: #F4F7F2 !important;
+  color: #16231C !important;
+  background-image: none;
+}
+
+#home section, #dores section, #mapa section {
+  color: #16231C;
+}
+
+/* Avoid global text overrides inside visual cards. Components define their own text colors. */
+.ecovoz-media-overlay,
+.ecovoz-media-overlay * {
+  color: #FFFFFF !important;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.55);
+}
+
+.ecovoz-media-overlay .media-kicker {
+  color: #F6C56B !important;
+}
+
+.ecovoz-image-fallback {
+  background: radial-gradient(circle at 20% 20%, rgba(168,203,177,0.55), transparent 28%), linear-gradient(135deg, #E8F1EA 0%, #DDE8D8 100%);
+}
+
+#home button.bg-\[\#123524\],
+#home button[class*="bg-[#123524]"],
+#dores button.bg-\[\#123524\],
+#dores button[class*="bg-[#123524]"] {
+  background-color: #123524 !important;
+  color: #FFFFFF !important;
+}
+
+#home button.bg-\[\#123524\] *,
+#home button[class*="bg-[#123524]"] *,
+#dores button.bg-\[\#123524\] *,
+#dores button[class*="bg-[#123524]"] * {
+  color: #FFFFFF !important;
+  stroke: currentColor !important;
+}
+
+#dores [class*="text-gray-400"], #dores [class*="text-slate-400"] {
+  color: #4B5F55 !important;
+}
+
+#dores [class*="text-rose"], #dores .text-rose-600, #dores .text-rose-400 {
+  color: #C2410C !important;
+}
+
+/* Tabs/Buttons in #dores segment with ultimate specificity */
+#dores .dores-tab-btn {
+  transition: all 0.2s ease-in-out !important;
+}
+
+#dores .dores-tab-btn.active {
+  background-color: #123524 !important;
+  color: #FFFFFF !important;
+}
+#dores .dores-tab-btn.active * {
+  color: #FFFFFF !important;
+  stroke: #FFFFFF !important;
+}
+
+#dores .dores-tab-btn.inactive {
+  background-color: #FFFFFF !important;
+  color: #123524 !important;
+  border-color: #DDE8D8 !important;
+}
+#dores .dores-tab-btn.inactive * {
+  color: #123524 !important;
+  stroke: #123524 !important;
+}
+
+#dores .dores-tab-btn.inactive:hover,
+#dores .dores-tab-btn.active:hover,
+#dores .dores-tab-btn:hover {
+  background-color: #E8F1EA !important;
+  color: #123524 !important;
+}
+#dores .dores-tab-btn:hover * {
+  color: #123524 !important;
+  stroke: #123524 !important;
+}
+
+/* Clinic highlight container styling under #dores */
+#dores #dores-destaque-clinico {
+  background-color: #123524 !important;
+  border-color: #245c44 !important;
+  opacity: 1 !important;
+  filter: none !important;
+  mix-blend-mode: normal !important;
+}
+
+#dores #dores-destaque-clinico .eyebrow {
+  color: #F28C28 !important;
+  opacity: 1 !important;
+  font-weight: 700 !important;
+}
+
+#dores #dores-destaque-clinico h2 {
+  color: #FFFFFF !important;
+  font-weight: 800 !important;
+  opacity: 1 !important;
+}
+
+#dores #dores-destaque-clinico p {
+  color: #E8F1EA !important;
+  line-height: 1.6 !important;
+  opacity: 1 !important;
+  font-size: 0.875rem !important;
+}
+
+#dores #dores-destaque-clinico .text-secondary {
+  color: #DDE8D8 !important;
+  opacity: 1 !important;
+}
